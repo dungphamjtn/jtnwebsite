@@ -1,0 +1,56 @@
+<data>
+	<!-- IMPORTANT NOTES:
+
+		* When upgrading the Featurific for Wordpress plugin, changes to your templates **will be overwritten**.  To avoid
+			losing your changes, save your modified templates before upgrading the plugin.  Then, upgrade the plugin, and
+			finally, restore your modified templates.
+
+		* Featurific for Wordpress generates the data*.xml file every x minutes (e.g. 10 minutes by default).  The next time
+			the data*.xml file is generated, your changes to this template will be visible.  However, if you wish to see your
+			changes more immediately, access the Featurific Settings page (Settings->Featurific), and hit the "Update Options"
+			button at the bottom without changing any of your settings.  Doing so forces a regeneration of the data*.xml file,
+			so you can see the result of your modifications immediately.
+	-->
+
+	<!-- Notes about this template.  Use any HTML you like, but use '[' and ']' to define your tags.  (e.g. [h4]Notes[/h4])  To use the literals '[' and ']', use '&#91;' and '&#93;', respectively. -->
+	<notes>
+		Metal tag superimposed upon the image associated with the post.[br/]
+		[b]Optional[/b] custom fields available for post-specific override:[br/]
+		[ul]
+			[li]url
+			[li]screen_duration
+			[li]image_1
+			[li]post_title
+		[/ul]
+		[a href='http://featurific.com']Designed by Rich Christiansen[/a].
+	</notes>
+
+	<size width="400" height="300"/>
+	
+	<controlpanel>
+		<button type="play"/>
+		<button type="pause"/>
+		<button type="numbers"/>
+	</controlpanel>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<!-- Main image.  Note that we use the 'min' resize type so that the image is guaranteed to fill the display area. -->
+		<image filename="%image_1%" x="0" y="0" width="400" height="300" resizetype="min"/>
+		<!-- <default name="image_1" value="templates/Metal Tag/default.jpg"/> -->
+
+		<!-- Metal Tag -->
+		<image filename="templates/Metal Tag/metalTag.png" x="200" y="170" animationspeed="5" animatefromx="1000" animatefromy="1000"/>
+
+		<!-- Shadow text -->
+		<!-- <text x="256" y="196" width="125" animationspeed="5" animatefromx="1000" animatefromy="1000">
+			<line fontsize="14" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+		</text> -->
+
+		<!-- Main text -->
+		<text x="255" y="195" width="125" animationspeed="5" animatefromx="1000" animatefromy="1000">
+			<line fontsize="14" fontstyle="bold" fontcolor="#4f3913" text="%post_title%"/>
+		</text>
+	</screen>
+
+</data>

@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Gallery Slideshow v1.5.5\n"
+"PO-Revision-Date: 2009-05-31 14:35+0200\n"
+"Last-Translator: Thomas Stachl <thomas@stachl.me>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;__ngettext_noop:1,2;_c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: ."
+
+#: org/myplugins/mpf/1col1sb.php:25
+#: org/myplugins/mpf/mpf.class.php:191
+#: org/myplugins/mpf/mpf.class.php:210
+msgid "Click to toggle"
+msgstr "Klicken zum Auf- und Zuklappen"
+
+#: org/myplugins/mpf/1col1sb.php:26
+#: org/myplugins/mpf/1col1sb.php:83
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: org/myplugins/mpf/1col1sb.php:32
+msgid "Restore Settings"
+msgstr "Einstellungen zurücksetzen"
+
+#: org/myplugins/mpf/1col1sb.php:32
+msgid ""
+"Do you really want to restore the default settings?\n"
+"All of your changes will be lost."
+msgstr ""
+"Wollen Sie wirklich die Standardeinstellungen wiederherstellen?\n"
+"Alle persönlichen Änderungen gehen verloren."
+
+#: org/myplugins/mpf/1col1sb.php:35
+msgid "Uninstall"
+msgstr "Deinstallieren"
+
+#: org/myplugins/mpf/1col1sb.php:35
+msgid ""
+"Do you really want to uninstall this plugin?\n"
+"All of your changes will be permanently removed from the database."
+msgstr ""
+"Wollen Sie das Plugin wirklich deinstallieren?\n"
+"Alle Ihre Änderungen werden unwiderruflich aus der Datenbank gelöscht."
+
+#: org/myplugins/mpf/1col1sb.php:43
+msgid "Plugin Home"
+msgstr "Plugin Webseite"
+
+#: org/myplugins/mpf/1col1sb.php:49
+msgid "Plugin Comments"
+msgstr "Plugin Kommentare"
+
+#: org/myplugins/mpf/1col1sb.php:55
+msgid "Rate Plugin"
+msgstr "Plugin bewerten"
+
+#: org/myplugins/mpf/1col1sb.php:61
+msgid "My Plugins"
+msgstr "Mein Plugins"
+
+#: org/myplugins/mpf/1col1sb.php:67
+msgid "Contact Me"
+msgstr "Kontaktieren Sie mich"
+
+#: org/myplugins/mpf/1col1sb.php:73
+msgid "No Contact"
+msgstr "Kein Kontakt"
+
+#: org/myplugins/mpf/1col1sb.php:116
+#, php-format
+msgid "<p>All of the %s plugin options have been deleted from the database.</p>"
+msgstr "<p>Alle Optionen des Plugins %s wurden aus der Datenbank gelöscht.</p>"
+
+#: org/myplugins/mpf/1col1sb.php:117
+#, php-format
+msgid "<p><strong><a href=\"%1$s\">Click here</a></strong> to finish the uninstallation and deactivate the %2$s plugin.</p>"
+msgstr "<p><strong><a href=\"%1$s\">Klicken Sie hier</a></strong> um die Deinstallation ab zu schließen und das Plugin %2$s zu deaktivieren.</p>"
+
+#: org/myplugins/mpf/mpf.class.php:318
+#, php-format
+msgid "<p>The %s plugin options have been updated in the database.</p>"
+msgstr "<p>Die Optionen des Plugins %s wurden in der Datenbank aktualisiert.</p>"
+
+#: org/myplugins/mpf/mpf.class.php:327
+#, php-format
+msgid "<p>The %s plugin options have been reset to default values in the database.</p>"
+msgstr "<p>Die Optionen des Plugins %s wurden auf die Standardeinstellung zurück gestellt.</p>"
+
+#: slideshow.php:41
+msgid "<p>The WordPress Gallery Slideshow adds the JW Image Rotator to WordPress. You can use the new slideshow shortcode tag to display the slideshow: <code>[slide]</code>"
+msgstr "<p>Die WordPress Gallery Slideshow ergänzt WordPress um den JW Image Rotator. Sie können den neuen Shortcode verwenden um die Slideshow anzuzeigen: <code>[slide]</code>"
+
+#: slideshow.php:43
+msgid "<p>Every donation is gratefully accepted and allows the continued work on free software.</p>"
+msgstr "<p>Jede Spende wird dankbar angenommen. Sie ermöglichen dem Programmierer weiter an freier Software zu arbeiten.</p>"
+
+#: slideshow.php:91
+msgid "Dimension"
+msgstr "Dimension"
+
+#: slideshow.php:94
+msgid "Width"
+msgstr "Breite"
+
+#: slideshow.php:95
+msgid "Height"
+msgstr "Höhe"
+
+#: slideshow.php:102
+msgid "Colors"
+msgstr "Farben"
+
+#: slideshow.php:105
+msgid "Backcolor"
+msgstr "Hintergrundfarbe"
+
+#: slideshow.php:106
+msgid "Lightcolor"
+msgstr "Leuchtfarbe"
+
+#: slideshow.php:109
+msgid "Frontcolor"
+msgstr "Vordergrundfarbe"
+
+#: slideshow.php:110
+msgid "Screencolor"
+msgstr "Displayfarbe"
+
+#: slideshow.php:117
+msgid "Various"
+msgstr "Verschiedene"
+
+#: slideshow.php:120
+msgid "Watermark"
+msgstr "Wasserzeichen"
+
+#: slideshow.php:121
+msgid "Rotatetime"
+msgstr "Anzeigedauer"
+
+#: slideshow.php:125
+msgid "Randomly choosen picture"
+msgstr "Zufallsbilder"
+
+#: slideshow.php:126
+msgid "Overstretch"
+msgstr "Überdehnen"
+
+#: slideshow.php:127
+msgid "Show navigation"
+msgstr "Navigation anzeigen"
+
+#: slideshow.php:128
+msgid "Enable fullscreen mode"
+msgstr "Fullscreen-Modus aktivieren"
+
+#: slideshow.php:129
+msgid "Start slideshow automatically"
+msgstr "Slideshow automatisch starten"
+
+#: slideshow.php:131
+msgid "Transition"
+msgstr "Übergang"
+
+#: slideshow.php:159
+msgid "That defines the standard height of the player."
+msgstr "Die Eingabe definiert die Höhe des Players."
+
+#: slideshow.php:163
+msgid "That defines the standard width of the player."
+msgstr "Die Eingabe definiert die Breite des Players."
+
+#: slideshow.php:167
+msgid "Hex code of the standard background color. That means the background color of the buttons."
+msgstr "Hex-Code der Standard-Hintergrund-Farbe. Hier ist die Hintergrundfarbe der Schaltflächen gemeint."
+
+#: slideshow.php:171
+msgid "Hex code of the standard front color. That means the color of the buttons."
+msgstr "Hex-Code der Standard-Vordergrund-Farbe. Hier ist die Vordergrundfarbe der Schaltflächen gemeint."
+
+#: slideshow.php:175
+msgid "Hex code of the standard light color. That means the color when you hover buttons."
+msgstr "Hex-Code der Standard-Leuchtfarbe. Hier ist die Farbe der Schaltflächen gemeint wenn man mit der Maus darüber fährt."
+
+#: slideshow.php:179
+msgid "Hex code of the standard screen color. That means the background color of the player."
+msgstr "Hex-Code der Standard-Display-Farbe. Hier ist die Hintergrund-Farbe des Players gemeint."
+
+#: slideshow.php:183
+msgid "Here you can set a watermark logo for the player. Insert the URL of the logo."
+msgstr "Hier können Sie ein Wasserzeichen-Logo für den Spieler hinzufügen. Führen Sie die URL des Logos an."
+
+#: slideshow.php:184
+msgid "Random"
+msgstr "Zufällig"
+
+#: slideshow.php:184
+msgid "Fade"
+msgstr "Weicher Übergang"
+
+#: slideshow.php:184
+msgid "Background Fade"
+msgstr "Übergang auf Hintergrund"
+
+#: slideshow.php:184
+msgid "Blocks"
+msgstr "Blöcke"
+
+#: slideshow.php:184
+msgid "Bubbles"
+msgstr "Blasen"
+
+#: slideshow.php:184
+msgid "Circles"
+msgstr "Kreise"
+
+#: slideshow.php:184
+msgid "Flash"
+msgstr "Blitz"
+
+#: slideshow.php:184
+msgid "Fluids"
+msgstr "Flüssigkeit"
+
+#: slideshow.php:184
+msgid "Lines"
+msgstr "Linien"
+
+#: slideshow.php:184
+msgid "Slowfade"
+msgstr "Langsamer Übergang"
+
+#: slideshow.php:188
+msgid "You may set a standard transition for the slideshows."
+msgstr "Hier können Sie einen Standard-Übergang definieren."
+
+#: slideshow.php:193
+msgid "Set the standard rotatetime."
+msgstr "Hier können Sie die Standard-Übergangszeit festlegen."
+
+#: slideshow.php:197
+msgid "Shuffle images."
+msgstr "Shuffle Bilder."
+
+#: slideshow.php:201
+msgid "Overstretch images."
+msgstr "Bilder überdehnen."
+
+#: slideshow.php:205
+msgid "Show the navigation buttons."
+msgstr "Lassen Sie sich die Navigations-Schaltflächen anzeigen."
+
+#: slideshow.php:209
+msgid "Allow fullscreen mode."
+msgstr "Vollbild-Modus erlauben."
+
+#: slideshow.php:213
+msgid "Autostart the slideshow."
+msgstr "Autostart der Diashow."
+
+#: slideshow.php:218
+msgid "Plugin Description"
+msgstr "Plugin-Beschreibung"
+
+#: slideshow.php:223
+msgid "General Options"
+msgstr "Allgemeine Optionen"
+
+#: slideshow.php:229
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: slideshow.php:230
+msgid "Slideshow Options Page"
+msgstr "Slideshow Optionen Seite"
+

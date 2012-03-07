@@ -1,0 +1,29 @@
+/*
+Theme Name: Extremely Simple Theme
+Theme URI: http://link2caro.net/
+Description: An extremely simple theme
+Version: 0.0.1
+Author: Minh-Quan TRAN (aka link2caro a member of WordPressVN)
+Author URI: http://link2caro.net/
+Tags: extreme, simple, simplest, toi gian, don gian
+Template:
+*/
+
+#header, #content, #footer, #sidebar, #sidebar-XXXXX {
+	border: 2px dotted orange;
+	margin: 10px 0;
+}
+
+#content {
+	float: left;
+	width: 70%;
+}
+
+#sidebar, #sidebar-XXXXX {
+	float: right;
+	width: 25%;
+}
+
+#footer {
+	clear: both;
+}

@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* 
+Theme Name: JTN
+Theme URI: http://jtn.com.vn
+Description: Theme JTN
+Version 1.0
+Tag:JTN,Game
+ */
+
+ * {    
+ margin:0; 
+ padding:0;   
+} 
+
+body{
+    background:#C0C595;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:12px;
+	text-align:center;
+	text-align: -moz-center;
+}
+.wraper{
+	margin:0 auto;
+    width:1145px;
+}
+.container{
+	text-align:center;
+	margin:auto;
+	width:1046px;
+	background:#F2F2F2;
+}
+.header{
+	height:800px;
+	position:relative;
+	left:-50px;
+	margin:auto;
+	width:1145px;
+}
+.menu-header
+{
+	margin:auto;
+	position:relative;
+	z-index:3;
+	height:114px;
+	width:1046px;
+	background:url(images/bg-menu-logo.png) no-repeat;
+}
+.line{
+	position:absolute;
+	z-index:2;
+	height:9px;
+	width:1048px;
+	background: url(images/line-header.png) no-repeat ;
+}
+.logo{
+	float:left;
+	margin:0 50px;
+	height:65px;
+	width:224px;
+	background:url(images/logo.png);
+}
+.top-menu
+{	
+	height:114px;
+	padding:0;
+}
+.top-menu ul
+{
+	margin: 0;
+	padding: 0;
+}
+.top-menu ul li{
+	background:url(images/bg-menu.png) no-repeat ;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:30px;
+	float:left;
+	line-height:114px;
+	height:114px;
+	width:166px;
+	margin:0;
+	padding:0;
+	display: inline;
+}
+ /* mouse over link */
+.top-menu  li:hover {
+	text-decoration:underline;
+	height:114px;
+	width:166px;
+	background:url(images/bg-menu-hover.png) no-repeat;
+	color:#FF00FF;
+}
+ /* unvisited link */
+.top-menu li:link 
+	{
+	color:#FF0000;
+	} 
+/* visited link      
+.top-menu li a:visited{
+	text-decoration:underline;
+	color:#930;
+	} */ 
+/* selected link */
+.top-menu li a:active {
+	text-decoration:underline;
+	color:#0000FF;
+	}  
+.top-menu li a {
+	color:#0060FF;
+	text-decoration:none;
+}
+.top-menu .about-item {
+	height:110px;
+	border-left:solid 1.5px;
+	padding: 0px;	
+}
+.top-menu .game-item {
+	height:112px;
+	border-right:solid 1.5px;
+	border-left:solid 1.5px;
+	padding: 0px;	
+}
+.top-menu .blog-item {
+	height:107px;
+	border-right:solid 1.5px;
+	padding: 0px;	
+}
+.top-menu .contact-item {
+	height:100px;
+	border-right:solid 1.5px;
+	padding: 0px;
+}
+.top-menu li.current-menu-item {
+	display:block;
+	float:left;
+	background:url(images/bg-menu-hover.png) no-repeat;
+	color:#fff;
+	}
+.top-menu li.current-menu-item a{
+	text-decoration:underline;
+	}
+.slider{
+
+	text-align:center;
+	position:relative;
+	top:10px;
+	z-index:1;
+	width:1145px;
+	height:464px;
+  }
+.image{
+	text-align:center;
+	position:absolute;
+	left:-20px;
+	width:1145px;
+	height:464px;
+	/*background:url(images/slideshow.png);*/
+	}
+.image .image-slider{
+	opacity:0.6;
+	-moz-opacity: .6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+ 	position:absolute;
+	left:90px;
+	width:1000px;
+	height:464px;
+/*	background:url(images/bg-image-slider-01.png);*/
+	}
+.button-slider{
+	position:absolute;
+	left:50px;
+	top:450px;
+	width:1046px;
+	height:50px;
+	background:url(images/bt-slideshow1.png);
+	}
+.scroll-slider{
+	position:absolute;
+	left:70px;
+	top:485px;
+	width:1000px;
+	height:125px;
+	background:url(images/allgame1.png) no-repeat;
+	}
+.bottom-slider{
+	position:absolute;
+	left:50px;
+	top:610px;
+	width:1046px;
+	height:50px;
+	background:url(images/bottom-slider.png);
+}
+.clear_both{
+    clear:both;
+}
+
+.content{
+	text-align:center;
+	position:relative;
+	clear:both;
+	padding:0 10px;
+}
+.entry-page{
+	margin:0 100px;
+	width:800px;
+	text-align:left;
+}
+
+.entry{
+	clear:none;
+	float:left;
+	width:340px;
+	height:300px;
+}
+/*
+#slider{
+    float:left;
+    width:300px;
+    margin: 10px 0px 10px 10px;
+    border: 0 0 1px 1px solid #999;
+      -moz-box-shadow: -5px 0px 5px #ccc;
+      -webkit-box-shadow: -5px 0px 5px #ccc;
+      box-shadow:-5px 5px 5px #ccc;
+    padding:5px;
+}*/
+
+.footer{
+	clear:both;
+	width:1046px;
+    height:200px;
+    background:  url(images/linkbutton.png) ;
+}
+
+#bigPic {
+	width:940px;
+	height:300px;
+	padding:1px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	margin-bottom:10px;
+}
+#bigPic img {
+	position:absolute;
+	display:none;
+}
+ul#thumbs li.active {
+	border:2px solid #000;
+	background:#fff;
+	padding:2px;
+}
+ul#thumbs, ul#thumbs li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+ul#thumbs li {
+	float:left;
+	margin-right:7px;
+	margin-bottom:5px;
+	border:1px solid #CCC;
+	padding:3px;
+	cursor:pointer;
+}
+ul#thumbs img {
+	float:left;
+	width:80px;
+	height:80px;
+	line-height:80px;
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+}
