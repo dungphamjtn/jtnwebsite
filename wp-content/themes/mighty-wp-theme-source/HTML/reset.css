@@ -1,0 +1,53 @@
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+-----  CSS RESET  -----
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+* { margin: 0; padding: 0; border: none; }
+body, html { overflow-x: hidden; }
+ul { list-style: circle; }
+form { display: block; }
+p, pre,
+blockquote, ul, ol, dl, address { font-weight: normal; }
+pre, blockquote, ul, ol, dl, address { margin: 0 0 1em 0; }
+p { margin: 0 0 1.3em 0; }
+xmp { padding: 15px; }
+cite, em, dfn { font-style: italic; }
+sup { position: relative; bottom: 0.3em; vertical-align: baseline; }
+sub { position: relative; bottom: -0.2em; vertical-align: baseline; }
+li, dd, blockquote { margin-left: 1em; }
+code, kbd, samp, pre, tt, var, textarea { font-size: 100%; font-family: monaco, "Lucida Console", courier, mono-space; }
+del { text-decoration: line-through; }
+ins, dfn { border-bottom: 1px solid #ccc; }
+small, sup, sub { font-size: 85%; }
+abbr, acronym { text-transform: uppercase; font-size: 85%; letter-spacing: .1em; border-bottom-style: dotted; border-bottom-width: 1px; }
+a abbr, a acronym { border: none; }
+sup { vertical-align: super; }
+sub { vertical-align: sub; }
+
+h1 { font-size: 2.2em; margin-bottom: 0.8em; }
+h2 { font-size: 1.9em; margin-bottom: 0.8em; }
+h3 { font-size: 1.8em; margin-bottom: 0.8em; }
+h4 { font-size: 1.6em; margin-bottom: 0.8em; }
+h5 { font-size: 1.2em; margin-bottom: 0.8em; }
+h6 { font-size: 1em; margin-bottom: 0.8em; }
+
+a, a:link, a:visited, a:hover, a:active { text-decoration: none; }
+a img { border: none; text-decoration: none; }
+
+img { border: none; text-decoration: none; }
+
+label, button {	cursor: pointer; }
+fieldset { border: none; }
+
+.left { float: left; }
+.right { float: right; }
+
+img.alignleft { margin: 0 15px 0 0; float: left; }
+img.alignright { margin: 0 0 0 15px; float: right; }
+
+.hidden { display: none; }
+
+code{background:#f6f6f6 url(images/code.gif); display:block; border:1px solid #c5c5c5; border-bottom:0px; padding:0 14px; font-size:10px; white-space: pre; line-height: 22px;}
+
+.no_margin { margin: 0 !important; }
+.no_margin_r { margin-right: 0 !important; }

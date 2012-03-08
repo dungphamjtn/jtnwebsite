@@ -1,0 +1,199 @@
+
+
+/*-----AUTO CLEARFIX-----*/
+
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .clearfix { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+.rm_section{
+	margin: 25px 2px;
+	width:740px;
+	border:1px solid #ddd;
+	border-bottom:0;
+	background:#fafafa;
+	-moz-border-radius:2px;
+	-moz-border-radius-topright:25px;
+	-moz-border-radius-topleft:25px;
+	-webkit-border-radius:2px;
+	-webkit-border-top-right-radius:25px;
+	-webkit-border-top-left-radius:25px;
+	-moz-box-shadow: 0 0 3px #dfdfdf;
+	-webkit-box-shadow: 0 0 3px #dfdfdf;
+	box-shadow: 0 0 3px #dfdfdf;
+
+}
+
+/*-----//AUTO CLEARFIX-----*/
+
+/*-----TITLE-----*/
+
+.rm_title{
+	
+	background:#e8e8e8 url('../img/adminbg.png') no-repeat;
+	padding-left: 15px;
+	padding-right: 15px;
+	-moz-border-radius-topright:10px;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-right-radius:25px;
+	-webkit-border-top-left-radius:25px;
+	color:#ccc;
+}
+
+.rm_title .rm_title_image{
+	padding:20px 10px;}
+	
+	.rm_title_image img{
+		float:left;
+	}
+	.rm_meta{
+		font-size:12px;
+		font-weight:700;
+		text-shadow: 1px 1px 1px #333;
+		float:right;
+		text-transform:uppercase;
+		padding:2px 10px;
+	}
+		.rm_meta a{text-decoration:none; color:#dadada;}
+		.rm_meta a:hover{color:#d54e21;}
+		
+	
+	
+.rm_title h3 {
+	font-size:1em;
+	text-transform:uppercase;
+	margin:0;
+	font-weight:bold !important;
+	color:#8e8e8e;
+	float:left;
+	width:80%;
+	padding:5px 10px;
+	text-shadow: 2px 2px 2px #333;
+}
+
+
+.rm_title span.submit{
+	display:block;
+	float:right;
+	margin:0;
+	padding:0;
+	width:15%;
+	padding:14px 0;
+}
+
+/*-----//TITLE-----*/
+
+
+/*-----LABELS AND DESCRIPTIONS-----*/
+
+.rm_options div.label{
+	padding: 20px; 
+	font-size:12px;
+	font-weight:700;
+	width:130px;
+	float:left;
+	margin: 20px 0;
+}
+
+.rm_options div.description{
+	display:block;
+	float:right;
+	width:180px;
+	color:#999;
+	font-size:11px;
+	padding:35px 20px 35px 0;
+}
+
+.rm_input label{
+	font-size:11px;
+	font-weight:700;
+	margin-left:3px;
+}
+
+/*-----//LABELS AND DESCRIPTIONS-----*/
+
+
+/*-----OPTIONS GROUPS-----*/
+
+.option_wrap{
+	float: left; 
+	background-color: #fff; 
+	color: #464646; 
+	width: 570px;
+	padding:0; 
+	margin:0;
+}
+.option_control{
+	width: 330px; 
+	float: left;
+	padding: 35px 20px;
+}	
+
+/*-----//OPTIONS GROUPS-----*/
+
+
+/*-----INPUT STYLES-----*/
+
+.rm_input {
+	padding:0;
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #fff;
+}
+.rm_options input[type="text"], .rm_options select{
+	width:280px;
+	font-size:12px;
+	padding:4px;
+	color:#333;
+	line-height:1em;
+	background:#f3f3f3;
+}
+
+.rm_options input[type="radio"], .rm_options input[type="checkbox"]{	
+	margin: 2px 0 0 0;
+}
+
+.rm_input textarea{
+	width:280px;
+	height:175px;
+	font-size:12px;
+	color:#333;
+	line-height:1.5em;
+	background:#f3f3f3;
+}
+.rm_input input:focus, .rm_input textarea:focus, .rm_options select:focus{
+	background:#fff;
+}
+
+span.rm_upload, span.rm_remove{
+	display:inline-block;
+	width:auto;
+	margin-top:10px;
+}
+
+.checkbox-nav{
+	float:left;
+	margin:0 6px 10px 0;
+	width:106px;
+}
+
+.checkbox-nav label{
+	font-weight:400;
+}
+
+.last{
+	margin-right:0; 
+}
+
+.rm_image_preview img{
+	max-width:200px;
+	padding:4px;
+}
+
+span.rm_upload, span.rm_remove{
+	display:inline-block;
+	width:auto;
+	}
+
+/*-----//INPUT STYLES-----*/
+

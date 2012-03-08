@@ -14,8 +14,7 @@
      <?php while (have_posts()) : the_post();
 	  ?>
           <div class="entry-page">
-           <p>
-          	<?php the_content(); ?></p>
+          <p> <?php the_content(); ?></p>
            </div>
       <?php endwhile; ?>
 <?php endif;  ?> 

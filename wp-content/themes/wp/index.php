@@ -8,11 +8,15 @@
 <?php wp_head();?>
 </head>
 <body>
+
 <?php get_header();?>
 <div class="content">
 <?php if(is_home()) {
 query_posts( $query_string . '&cat=4' );
-}?><?php
+ query_posts(array('category_name' => 'games', 'posts_per_page' => -1 )); 
+}?>
+<?php
+
  //Code automatically inserted by Featurific for Wordpress plugin
  if(is_home())                             //If we're generating the home page (remove this line to make Featurific appear on all pages)...
   if(function_exists('insert_featurific')) //If the Featurific plugin is activated...
@@ -22,13 +26,14 @@ query_posts( $query_string . '&cat=4' );
      <?php while (have_posts()) : the_post();
 	  ?>
           <div class="entry">
-         <center> <h2  id="post-<?php the_ID(); ?>"> <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+        	 <center> <h2  id="post-<?php the_ID(); ?>"> <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
            Author: <?php the_author(); ?>
            Date: <?php the_date(); ?></center>
            <?php the_content('Read more...'); ?>
            <?php the_excerpt(); ?>
            Category: <?php the_category(', '); ?>
-           <?php the_tags(); ?></div>
+           <?php the_tags(); ?>
+          </div>
       <?php endwhile; ?>
 <?php endif;  ?> 
 </div>

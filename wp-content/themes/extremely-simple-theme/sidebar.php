@@ -1,1 +1,0 @@
-<div id="sidebar">Thanh Bên</div>

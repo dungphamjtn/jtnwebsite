@@ -1,0 +1,461 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- head -->
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<!-- Title of page -->
+	<title>Mighty - DDStudios HTML Template</title>
+	
+	<!-- Main CSS Stylesheet -->
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen" />
+	
+	<!-- .JS Files -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/Cufon_yui.js"></script>
+	<script type="text/javascript" src="js/LiberationSans_Cufon.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/form_validation.js"></script>
+	
+	<!--[if IE 6]>
+	<script src="js/DD_belatedPNG.js"></script>
+	<script> DD_belatedPNG.fix('*'); </script>
+	<link href="style_IE6.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	
+	<script type="text/javascript">
+		$(function(){
+
+			submitForm();
+			
+		});
+	</script>
+	
+</head>
+
+<body>
+
+	<div id="wrapper">
+	
+		<div id="header">
+		
+			<div id="logo">
+			
+				<a href="index.html"><img src="images/logo.png" width="168" height="40" alt="Mighty - DDStudios" /></a>
+				
+			</div>
+			<!-- /#logo -->
+			
+			<div id="menu">
+			
+				<div id="right_bg"></div>
+			
+				<ul>
+				
+					<li><a href="index.html">Home</a></li>
+				
+					<li><a href="page.html">About</a>
+					
+						<ul>
+						
+							<li><a href="#">Option One</a></li>
+						
+							<li><a href="#">Option Two</a></li>
+						
+							<li><a href="#">Option Three</a></li>
+						
+						</ul>
+						<!-- /#menu ul li ul (first submenu) -->
+					
+					</li>
+				
+					<li><a href="portfolio.html">Portfolio</a></li>
+				
+					<li><a href="blog.html">Blog</a></li>
+				
+					<li><a href="layout.html">Layout</a></li>
+				
+					<li><a href="contact.html">Contact</a></li>
+				
+					<li id="login_link"><a href="#login_wrapper">Login</a></li>
+				
+				</ul>
+				<!-- /#menu ul -->
+			
+			</div>
+			<!-- /#menu -->
+			
+			<div id="header_info">
+			
+				<div class="left">
+				
+					You are here : <a href="index.html" style="font-weight: bold;">Home</a> / <a href="contact.html">Contact</a>
+				
+				</div>
+				
+				<div class="right">
+				
+					<a href="#" class="rss">Subscribe to RSS</a>
+				
+				</div>
+			
+			</div>
+			<!-- /#header_info -->
+		
+		</div>
+		<!-- /#header -->
+		
+		<div id="top_box">
+		
+			<span class="top_box_top"></span>
+			<!-- /.top_box_top - adds the top Background -->
+			
+			<div class="content">
+			
+				<div class="top_box_block">
+				
+					<h4>Full Width Slider</h4>
+					<p>Aenean commodo, dui  porta consequat, ipsum <a href="#">tortor amet</a>.</p>
+					<img src="assets/top_box_icon_1.png" width="71" height="70" alt="Full Width Slider" class="icon" />
+				
+				</div>
+				<!-- /.content .top_box_block -->
+			
+				<div class="top_box_block">
+				
+					<h4>Works Everywhere</h4>
+					<p>Ut ut porta nulla. Quisque <a href="#">eros felis</a> ipsum tortor amet.</p>
+					<img src="assets/top_box_icon_2.png" width="89" height="75" alt="Works Everywhere" class="icon" />
+				
+				</div>
+				<!-- /.content .top_box_block -->
+			
+				<div class="top_box_block no_margin">
+				
+					<h4>Multiple Skin</h4>
+					<p>Aenean commodo, dui porta consequat, <a href="#">ipsum tortor amet</a>.</p>
+					<img src="assets/top_box_icon_3.png" width="86" height="69" alt="Multiple Skins" class="icon" />
+				
+				</div>
+				<!-- /.content .top_box_block -->
+			
+			</div>
+			<!-- /#top_box .content -->
+		
+		</div>
+		<!-- /#top_box -->
+		
+		<div id="content">
+		
+			<div id="left">
+			
+				<div class="content_item">
+				
+					<h3>Contact us</h3>
+			
+					<h5>Have a project it mind?</h5>
+			
+					<p>Curabitur viverra, ante non pulvinar pellentesque, leo quam tincidunt velit, quis eleifend erat orci eu orci. Proin ac eros nec dolor sodales pulvinar sit amet nec velit. Praesent tellus diam, luctus in.</p>
+			
+					<p><img src="assets/google_maps.jpg" width="611" height="169" alt="Google_Maps" /></p>
+					
+					<form id="contactform" action="php/mail.php" method="post" enctype="multipart/form-data" class="global">
+					
+						<p>
+						
+							<label for="name">Your name:</label>
+							<input class="short" name="name" id="name" />
+						
+						</p>
+						
+						<p>
+						
+							<label for="email">Your email:</label>
+							<input class="short" name="email" id="email" />
+						
+						</p>
+						
+						<p>
+						
+							<label for="message">Your message:</label>
+							<textarea name="message" id="message" rows="8" cols=""></textarea>
+						
+						</p>
+						
+						<p>
+						
+							<input name="" type="submit" class="submit" value="Send" />
+							<input name="" type="reset" class="reset" value="reset" />
+						
+						</p>
+					
+					</form>
+					
+				</div>
+				<!-- /.content_item -->
+			
+			</div>
+			<!-- /#content #left - left side of main content -->
+			
+			<div id="right">
+			
+				<h3>Sidebar Content</h3>
+				<h5>Insert whatever you want here</h5>
+				
+				<div class="sidebar_item" id="search">
+				
+					<form action="index.html" method="post">
+					
+						<input name="search_field" type="text" class="search_field" />
+						<input name="search_field" type="submit" class="search_submit" value="" />
+					
+					</form>
+					<!-- #search form -->
+				
+				</div>
+				<!-- /.sidebar_item #search -->
+				
+				<div class="sidebar_item">
+				
+					<ul id="tabs">
+					
+						<li>Offices</li>
+					
+					</ul>
+					<!-- /#tabs -->
+					
+					<ul id="ctabs">
+					
+						<li>
+						
+							<ul class="ctabs_content">
+							
+								<li><a href="#">Actuality</a></li>
+							
+								<li><a href="#">Technology</a></li>
+							
+								<li><a href="#">Interview</a></li>
+							
+								<li><a href="#">Design</a></li>
+							
+								<li><a href="#">Mobile</a></li>
+							
+								<li><a href="#">Movies</a></li>
+							
+							</ul>
+							<!-- /.ctabs_content -->
+						
+						</li>
+						<!-- /#ctabs item -->
+					
+					</ul>
+					<!-- /#ctabs -->
+				
+				</div>
+				<!-- /.sidebar_item tabbed content -->
+			
+			</div>
+			<!-- /#content #right - right side of main content or sidebar -->
+		
+		</div>
+		<!-- /#content -->
+		
+	</div>
+	<!-- /#wrapper -->
+	
+	<div id="footer">
+	
+		<div id="footer_wrapper">
+		
+			<div id="footer_content">
+		
+				<div id="footer_column_1">
+				
+					<h6>Applications</h6>
+					
+					<ul>
+					
+						<li><a href="#">Application One</a></li>
+					
+						<li><a href="#">Application Two</a></li>
+					
+						<li><a href="#">Application Three</a></li>
+					
+						<li><a href="#">Application Four</a></li>
+					
+						<li><a href="#">Application Five</a></li>
+					
+						<li><a href="#">Application Six</a></li>
+					
+					</ul>
+					<!-- /ul -->
+				
+				</div>
+				<!-- /#footer_column_1 -->
+			
+				<div id="footer_column_2">
+				
+					<h6>Support</h6>
+					
+					<ul>
+					
+						<li><a href="#">Online Support</a></li>
+					
+						<li><a href="#">Telephone Sales</a></li>
+					
+						<li><a href="#">Workshops</a></li>
+					
+						<li><a href="#">Email Form</a></li>
+					
+						<li><a href="#">Mail</a></li>
+					
+						<li><a href="#">Fax Number</a></li>
+					
+					</ul>
+					<!-- /ul -->
+				
+				</div>
+				<!-- /#footer_column_2 -->
+			
+				<div id="footer_column_3">
+				
+					<h6>Markets</h6>
+					
+					<ul>
+					
+						<li><a href="#">Education</a></li>
+					
+						<li><a href="#">Science</a></li>
+					
+						<li><a href="#">Business</a></li>
+					
+						<li><a href="#">Education</a></li>
+					
+						<li><a href="#">Science</a></li>
+					
+						<li><a href="#">Business</a></li>
+					
+					</ul>
+					<!-- /ul -->
+				
+				</div>
+				<!-- /#footer_column_3 -->
+			
+				<div id="footer_column_4">
+				
+					<h6>From Flickr</h6>
+					
+					<a href="assets/post_1.jpg" class="lightbox"><img src="assets/flickr1.gif" width="81" height="52" alt="flickr" /></a>
+					
+					<a href="assets/post_1.jpg" class="lightbox"><img src="assets/flickr2.gif" width="81" height="52" alt="flickr" /></a>
+					
+					<a href="assets/post_1.jpg" class="lightbox"><img src="assets/flickr3.gif" width="81" height="52" alt="flickr" /></a>
+					
+					<a href="assets/post_1.jpg" class="lightbox"><img src="assets/flickr4.gif" width="81" height="52" alt="flickr" /></a>
+					
+					<a href="assets/post_1.jpg" class="lightbox"><img src="assets/flickr2.gif" width="81" height="52" alt="flickr" /></a>
+					
+					<a href="assets/post_1.jpg" class="lightbox"><img src="assets/flickr4.gif" width="81" height="52" alt="flickr" /></a>
+					
+					<a href="assets/post_1.jpg" class="lightbox"><img src="assets/flickr1.gif" width="81" height="52" alt="flickr" /></a>
+					
+					<a href="assets/post_1.jpg" class="lightbox"><img src="assets/flickr3.gif" width="81" height="52" alt="flickr" /></a>
+				
+				</div>
+				<!-- /#footer_column_4 -->
+				
+			</div>
+			<!-- /#footer_content -->
+		
+		</div>
+		<!-- /#footer_wrapper -->
+	
+	</div>
+	<!-- /#footer -->
+	
+	<div id="copyright">
+	
+		<div id="copyright_wrapper">
+		
+			<ul class="left">
+			
+				<li><a href="#">Home</a></li>
+			
+				<li><a href="#">About</a></li>
+			
+				<li><a href="#">News</a></li>
+			
+				<li><a href="#">Gallery</a></li>
+			
+				<li><a href="#">Portfolio</a></li>
+			
+				<li><a href="#" style="border: none;">Contact</a></li>
+			
+			</ul>
+			<!-- /.left content-->
+			
+			<span class="right">&copy; 2009 Mighty | Designed and Developed by <a href="#">DDSTUDIOS</a></span>
+			<!-- /.right content-->
+		
+		</div>
+		<!-- /#copyright _wrapper-->
+	
+	</div>
+	<!-- /#copyright -->
+	
+	<div class="hidden">
+	
+		<div id="login_wrapper">
+	
+			<div id="login_top"></div>
+			
+			<div id="login">
+			
+			<form action="index.html" method="post">
+			
+				<div class="login_block">
+				
+					<label for="login_username">Username:</label>
+					<input type="text" id="login_username" name="username" />
+				
+				</div>
+			
+				<div class="login_block">
+				
+					<label for="login_password">Password:</label>
+					<input type="password" id="login_password" name="pass" />
+				
+				</div>
+			
+				<div class="login_block_submit">
+				
+					<input type="submit" id="login_submit" name="submit" value="" />
+				
+				</div>
+				
+				<p class="not_login_info">
+				
+					<span class="left"><input name="" type="checkbox" value="" class="checkbox" /> Remember me</span>
+				
+					<a href="#" class="right">Lost your password or username?</a>
+					
+				</p>
+				
+				<p class="not_info"><span class="img"></span>Information Notification: Nam orci turpis, mollis sed feugiat id.<span class="close"></span></p>
+				
+				</form>
+			
+			</div>
+			
+			<div id="login_bottom"></div>
+		
+		</div>
+	
+	</div>
+
+</body>
+</html>

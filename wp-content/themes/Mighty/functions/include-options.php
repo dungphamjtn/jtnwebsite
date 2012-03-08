@@ -1,0 +1,9 @@
+<?php
+include('options/general-options.php');
+include('options/integrate-options.php');
+include('options/header-footer-options.php');
+include('options/portfolio-blog-options.php');
+include('options/nav-options.php');
+include('options/seo-options.php');
+include('options/misc-options.php');
+?>

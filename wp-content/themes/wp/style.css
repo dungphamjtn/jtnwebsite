@@ -7,11 +7,6 @@ Version 1.0
 Tag:JTN,Game
  */
 
- * {    
- margin:0; 
- padding:0;   
-} 
-
 body{
     background:#C0C595;
     font-family:Tahoma, Geneva, sans-serif;
@@ -24,13 +19,14 @@ body{
     width:1145px;
 }
 .container{
+	height:auto;
 	text-align:center;
-	margin:auto;
+	margin:0 auto;
 	width:1046px;
 	background:#F2F2F2;
 }
 .header{
-	height:800px;
+	height:650px;
 	position:relative;
 	left:-50px;
 	margin:auto;
@@ -139,21 +135,19 @@ body{
 	text-decoration:underline;
 	}
 .slider{
-
-	text-align:center;
 	position:relative;
-	top:10px;
+	top:-8px;
+	left:100px;
 	z-index:1;
 	width:1145px;
 	height:464px;
   }
 .image{
-	text-align:center;
 	position:absolute;
 	left:-20px;
 	width:1145px;
-	height:464px;
-	/*background:url(images/slideshow.png);*/
+	height:600px;
+	background:url(images/slideshow.png);
 	}
 .image .image-slider{
 	opacity:0.6;
@@ -162,17 +156,89 @@ body{
  	position:absolute;
 	left:90px;
 	width:1000px;
-	height:464px;
-/*	background:url(images/bg-image-slider-01.png);*/
+	height:500px;
+	background:url(images/bg-image-slider-01.png);
 	}
 .button-slider{
+	
+	text-align:center;
 	position:absolute;
-	left:50px;
-	top:450px;
+	left:-50px;
+	top:300px;
 	width:1046px;
 	height:50px;
-	background:url(images/bt-slideshow1.png);
+	z-index:3;
+	background:url(images/bg-bt-slideshow.png);
 	}
+#bigPic {
+	
+	width:940px;
+	height:300px;
+	padding:1px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	margin-bottom:10px;
+}
+#bigPic img {
+	position:absolute;
+	display:none;
+}
+ul#thumbs li.active {
+	border:2px solid #000;
+	background:#fff;
+	padding:2px;
+}
+#thumbs{
+position:absolute;
+top:55px;
+left:48px;
+}
+ul#thumbs, ul#thumbs li {
+	
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+ul#thumbs li {
+	float:left;
+	margin-right:7px;
+	margin-bottom:5px;
+	border:1px solid #CCC;
+	padding:3px;
+	cursor:pointer;
+}
+ul#thumbs img {
+	float:left;
+	width:80px;
+	height:80px;
+	line-height:80px;
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+}
+ul#list li.active {
+	background:url(images/bt-slideshow-active.png) no-repeat;
+	padding:2px;
+}
+
+.list ul{
+	top:15px;
+	text-align:center;
+	position:absolute;
+	left:450px;
+	list-style:none;
+	width:1046px;
+}
+ul#list li {
+	background:url(images/bt-slideshow.png) no-repeat;
+	width:10px;
+	list-style:none;
+	float:left;
+	margin-right:7px;
+	margin-bottom:5px;
+	padding:3px;
+	cursor:pointer;
+}
 .scroll-slider{
 	position:absolute;
 	left:70px;
@@ -183,14 +249,10 @@ body{
 	}
 .bottom-slider{
 	position:absolute;
-	left:50px;
-	top:610px;
+	top:150px;
 	width:1046px;
 	height:50px;
 	background:url(images/bottom-slider.png);
-}
-.clear_both{
-    clear:both;
 }
 
 .content{
@@ -198,6 +260,12 @@ body{
 	position:relative;
 	clear:both;
 	padding:0 10px;
+}
+entry-post
+{
+	margin:0 100px;
+	width:800px;
+	text-align:left;
 }
 .entry-page{
 	margin:0 100px;
@@ -224,48 +292,10 @@ body{
 }*/
 
 .footer{
-	clear:both;
-	width:1046px;
+    text-align:center;
+    clear:both;
+    width:1046px;
     height:200px;
     background:  url(images/linkbutton.png) ;
 }
 
-#bigPic {
-	width:940px;
-	height:300px;
-	padding:1px;
-	border:1px solid #CCC;
-	background-color:#FFF;
-	margin-bottom:10px;
-}
-#bigPic img {
-	position:absolute;
-	display:none;
-}
-ul#thumbs li.active {
-	border:2px solid #000;
-	background:#fff;
-	padding:2px;
-}
-ul#thumbs, ul#thumbs li {
-	margin:0;
-	padding:0;
-	list-style:none;
-}
-ul#thumbs li {
-	float:left;
-	margin-right:7px;
-	margin-bottom:5px;
-	border:1px solid #CCC;
-	padding:3px;
-	cursor:pointer;
-}
-ul#thumbs img {
-	float:left;
-	width:80px;
-	height:80px;
-	line-height:80px;
-	overflow:hidden;
-	position:relative;
-	z-index:1;
-}
